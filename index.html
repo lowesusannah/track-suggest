@@ -17,23 +17,51 @@
 
     <form id="track-suggest">
     <ol>
+        <p>
         <li> Where would you like to study?</li>
           <select class="form-control" id="city">
             <option value="Seattle">Seattle</option>
             <option value="Portland">Portland</option>
+          </select>
+        </p>
 
-        <li> When are you available to take full-time class?</li>
+        <p>
+        <li> When are you available to take full-time class?
           <select class="form-control" id="dates">
             <option value="October 9, 2017 - April 27, 2018"></option>
             <option value="November 13, 2017 - June 1, 2018"></option>
           </select>
+        </li>
+        </p>
 
-        <li>
+        <p>
+        <li> Where are you most likely to be found on a weekend afternoon?
           <div class="radio">
             <label>
-            <input type="radio" name="day-off" value="art">
-
+              <input type="radio" name="day-off" value="art" checked>
+              In an art class or studio.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="day-off" value="game">
+              Playing World of Warcraft with my friends.
+            </label>
+          </div>
+          <div class="radio">
+            <label>
+              <input type="radio" name="day-off" value="startup-help">
+              Contract work for a new ecommerce startup.
+            </label>
+          </div>
+          <div class="radio">
+          <label>
+             <input type="radio" name="day-off" value="convincing-others">
+            Helping one of my friends figure out her new Android phone.
+          </label>
+        </div>
         </li>
+        </p>
 
 
           </div>
