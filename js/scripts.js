@@ -10,14 +10,10 @@
 $(document).ready(function() {
   $("form#track-suggest").submit(function(event) {
   var city = $("select#city").val();
-
-
   var date = $("select#date").val();
   var dayOff = $("input:radio[name=day-off]:checked").val();
   var dreamJob = $("input:radio[name=dream-job]:checked").val();
   var website = $("input:radio[name=website]:checked").val();
-
-  //var result =
 
   if (city === "portland" && date === "oct" && dayOff === "css" && dreamJob === "css" && website === "css") {
     $().hide();
