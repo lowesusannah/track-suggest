@@ -11,31 +11,26 @@
   </head>
   <body>
     <div class="container">
-      <h1>Which programming language should I learn first?</h1>
+    <div class="jumbotron">
+      <h1 class="display-3">Which programming language should I learn first?</h1>
 
-      <p>Chosing your first programming language can be a difficult choice! After all, you are probably not familiar with all of the options out there, or how any language works. But that's OK -- using our handy quiz below, find out which language is likely to be the best one for you to start out in at Epicodus. From there, you're certain to understand other languages better and be less intimidated to learn other languages.</p>
-
-    <form id="track-suggest">
+      <p class="lead">Chosing your first programming language can be a difficult choice! After all, you are probably not familiar with all of the options out there, or how any language works. But that's OK -- using our handy quiz below, find out which language is likely to be the best one for you to start out in at Epicodus. From there, you're certain to understand other languages better and be less intimidated to learn other languages.</p>
+    </div>
+  <form id="track-suggest">
     <ol>
-        <p>
-        <li> Where would you like to study?</li>
+        <li><h4>Where would you like to study?</h4>
           <select class="form-control" id="city">
             <option value="Seattle">Seattle</option>
             <option value="Portland">Portland</option>
           </select>
-        </p>
-
-        <p>
-        <li> When are you available to take full-time class?
+        </li>
+        <li><h4>When are you available to take full-time class? </h4>
           <select class="form-control" id="dates">
-            <option value="October 9, 2017 - April 27, 2018"></option>
-            <option value="November 13, 2017 - June 1, 2018"></option>
+            <option value="Oct">October 9, 2017 - April 27, 2018</option>
+            <option value="Nov">November 13, 2017 - June 1, 2018</option>
           </select>
         </li>
-        </p>
-
-        <p>
-        <li> Where are you most likely to be found on a weekend afternoon?
+        <li><h4> Where are you most likely to be found on a weekend afternoon?</h4>
           <div class="radio">
             <label>
               <input type="radio" name="day-off" value="css" checked>
@@ -62,10 +57,8 @@
         </div>
         </li>
         </p>
-
-
         <p>
-        <li> What is your dream job, once you learn how to program?
+        <li><h4> What is your dream job, once you learn how to program?</h4>
           <div class="radio">
             <label>
               <input type="radio" name="dream-job" value="css" checked>
@@ -92,9 +85,8 @@
         </div>
         </li>
         </p>
-
         <p>
-        <li> Someone finds you looking at a webpage on your lunch break. Which website are you most likely looking at?
+        <li><h4>Someone finds you looking at a webpage on your lunch break. Which website are you most likely looking at?</h4>
           <div class="radio">
             <label>
               <input type="radio" name="website" value="css" checked>
@@ -118,14 +110,13 @@
              <input type="radio" name="website" value="java">
               An article on why Android phones area better than iPhones.
           </label>
-        </div>
-        </li>
-        </p>
-
-
           </div>
+          </li>
+          </p>
         </ol>
-     </form>
-   </div>
-  </body>
+      </div>
+    </form>
+  </div>
+
+</body>
 </html>
