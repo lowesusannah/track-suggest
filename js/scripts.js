@@ -17,19 +17,31 @@ $(document).ready(function() {
   var website = $("input:radio[name=website]:checked").val();
 
   if (city === "portland" && date === "oct" && dayOff === "css" && dreamJob === "css" && website === "css") {
-    $().hide();
+    $("#java-android-portland, #ruby-rails-seattle, #c-net-seattle, #css-react-portland").hide();
     $("#css-react-portland").show();
   } else if (city === "portland" && date === "nov" && dayOff === "java" && dreamJob === "java" && website === "java") {
-    $().hide();
+    $("#java-android-portland, #ruby-rails-seattle, #c-net-seattle, #css-react-portland").hide();
     $("#java-android-portland").show();
   } else if (city === "seattle" && date === "oct" && dayOff === "ruby" && dreamJob === "ruby" && website === "ruby") {
-    $().hide();
+    $("#java-android-portland, #ruby-rails-seattle, #c-net-seattle, #css-react-portland").hide();
     $("#ruby-rails-seattle").show();
   } else if (city === "seattle" && date === "nov" && dayOff === "c#" && dreamJob === "c#" && website === "c#") {
-    $().hide();
+    $("#java-android-portland, #ruby-rails-seattle, #c-net-seattle, #css-react-portland").hide();
     $("#c-net-seattle").show()
+  } else if (dayOff === "css" && dreamJob === "css" && website === "css"){
+    $("#java-android-portland, #ruby-rails-seattle, #c-net-seattle, #css-react-portland").hide();
+    $("#css-react-portland").show();
+  } else if (dayOff === "java" && dreamJob === "java" && website === "java"){
+    $("#java-android-portland, #ruby-rails-seattle, #c-net-seattle, #css-react-portland").hide();
+    $("#java-android-portland").show();
+  } else if (dayOff === "ruby" && dreamJob === "ruby" && website === "ruby"){
+    $("#java-android-portland, #ruby-rails-seattle, #c-net-seattle, #css-react-portland").hide();
+    $("#ruby-rails-seattle").show();
+  } else if (dayOff === "c#" && dreamJob === "c#" && website === "c#"){
+    $("#java-android-portland, #ruby-rails-seattle, #c-net-seattle, #css-react-portland").hide();
+    $("#c-net-seattle").show();
   } else {
-    $().hide();
+    $("#java-android-portland, #ruby-rails-seattle, #c-net-seattle, #css-react-portland").hide();
     $("#c-net-seattle").show();
   };
  });
