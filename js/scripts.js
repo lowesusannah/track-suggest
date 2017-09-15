@@ -2,7 +2,7 @@
 var cssReactPortland =
 var javaAndroidPortland =
 var rubyRailsSeattle =
-var cNetSeattle = 
+var cNetSeattle =
 
 
 
@@ -18,16 +18,20 @@ $(document).ready(function() {
 
   var result =
 
-  if (city === 'portland') {
+  if (city === 'portland' && date === 'oct' && dayOff === 'css' && dreamJob === 'css' && website === 'css') {
     $().hide();
     $("#css-react-portland").show();
-
+  } else if (city === 'portland' && date === 'nov' && dayOff === 'java' && dreamJob === 'java' && website === 'java'){
     $().hide();
     $("#java-android-portland").show();
-
-  } else {
+  } else if (city === 'seattle' && date === 'oct' && dayOff === 'ruby' && dreamJob === 'ruby' && website === 'ruby')
     $().hide();
     $("#ruby-rails-seattle").show();
+  } else if (city === 'seattle' && date === 'nov' && dayOff === 'c#' && dreamJob === 'c#' && website === 'c#')
+    $().hide();
+    $("#ruby-rails-seattle").show();
+  } else {
+
 
     $().hide();
     $("#c-net-seattle").show();
